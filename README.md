@@ -14,6 +14,20 @@ git branch -d test
 git branch -D dev
 git branch -D test
 ```
+### to list tags locally 
+```
+git tag
+```
+### to delete local tag
+```
+git tag -d v1.4
+git tag -d v1.40
+```
+### to delete remote tag
+```
+git push origin -d v1.4
+git push origin -d v1.40
+```
 ### add image to my project
 ![](https://github.com/Eng-Muhammed-Samy/lab2/blob/main/images/Screenshot%202021-12-29%20134705.png)
 
